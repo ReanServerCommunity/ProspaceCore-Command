@@ -19,4 +19,15 @@ public class ExampleCommand extends CommandFramework<ExampleCommand>
 }
 ```
 Now, This class is ready to use the command class.<br>
-For inheritance safety, write the type of the class that inherits from the generic type. This is not required. However, there is no guarantee that it will work 100%. I recommend this method when you need to exchange classes and classes.
+For inheritance safety, write the type of the class that inherits from the generic type. This is not required. <b>However, there is no guarantee that it will work 100%. I recommend this method when you need to exchange classes and classes.<br>
+Next, in order to operate the command normally, you need to specify the main command.
+```java
+public ExampleCommand()
+{
+    this.setMainCommand("command")
+    //TODO something...
+}
+```
+ After that, you can modify it according to your desired attributes. See below for a description of the methods you need to modify.
+ # Reference Methods
+It will up-to-date.
