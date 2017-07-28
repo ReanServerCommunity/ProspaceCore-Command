@@ -7,6 +7,7 @@ Compared to BukkitCommand, it provides the following functions.
 * Supports alias commands
 * Create additional child commands
 * Easy design without writing a separate class
+* Automatically creates help pages and custom styles
 # How to use ProspaceCommand
 The source code is written in Kotlin, but it is 100% compatible with Java code. <br>
 This shows that there is no problem building the plugin.<br>
