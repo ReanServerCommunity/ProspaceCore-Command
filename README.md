@@ -61,7 +61,7 @@ public boolean perform(@NotNull CommandSender sender, @Nullable List<String> arg
 ```
 The method <code>perform(CommandSender, List<String>)</code> is defined in the interface within the <code>CommandFramework</code>.
 The method is Null-safety guaranteed by Kotlin Compiler. It can be confirmed that the argument value is passed through the annotation check. The command class determines that nothing has been done if <code>perform(CommandSender, List<String>)</code> has not been overridden in the child class and outputs a help page. The Help page is generated automatically by <code>sendHelpPage(CommandSender)</code>.<br><br>
- These commands are automatically registered by <code>ProspaceCore</code>. Therefore, You don't have to write about this command in <code>plugin.yml<code>.
+ These commands are automatically registered by <code>ProspaceCore</code>. Therefore, You don't have to write about this command in <code>plugin.yml</code>.
  You can modify it according to your desired attributes. See below for a description of the methods you need to modify.
  # Reference Methods
 It will up-to-date.
