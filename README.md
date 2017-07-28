@@ -42,13 +42,22 @@ public ProspaceCoreCommand()
     this.setMainCommand("command");
 }
 
-// Null-Safety Guaranteed Method
+//1. General method
+@Override
+public boolean perform(CommandSender sender, List<String> args)
+{
+    //TODO execute
+    return true;
+}
+
+//2. Null-Safety Guaranteed Method
 @Override
 public boolean perform(@NotNull CommandSender sender, @Nullable List<String> args)
 {
-    //TODO The part to be executed
+    //TODO execute
     return true;
 }
+
 ```
 The method <code>perform(CommandSender, List<String>)</code> is defined in the interface within the <code>CommandFramework</code>.
 The method is Null-safety guaranteed by Kotlin Compiler. It can be confirmed that the argument value is passed through the annotation check. 
