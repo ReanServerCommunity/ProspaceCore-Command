@@ -28,6 +28,20 @@ public ExampleCommand()
     //TODO something...
 }
 ```
+Next, let's implement the part that runs when you type the command. Actually, the command class is already defined, but nothing is executed. This can be overridden and design your code as you like.
+```java
+public ProspaceCoreCommand()
+{
+    this.setMainCommand("command");
+}
+
+@Override
+public boolean perform(@NotNull CommandSender sender, @Nullable List<String> args)
+{
+    //TODO The part to be executed
+    return true;
+}
+```
  After that, you can modify it according to your desired attributes. See below for a description of the methods you need to modify.
  # Reference Methods
 It will up-to-date.
