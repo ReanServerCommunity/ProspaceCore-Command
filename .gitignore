@@ -30,7 +30,7 @@ target/
 .DS_Store
 
 # Intelij
-.idea/
+.idea/*.*
 *.iml
 .project
 .classpath
