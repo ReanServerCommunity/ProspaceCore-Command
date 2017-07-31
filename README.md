@@ -109,8 +109,8 @@ public class ExampleCommand extends CommandFramework<ProspaceCoreCommand>
  See the wiki for more information, commands, methods.
  
  # Development support
- If you have a better source code or want to help with development, I welcome the user at any time. However, the source is a plugin that depends on ProspaceCore. If you want to support development, you need to understand the overall source code for the plug-in
- 
+ If you have a better source code or want to help with development, I welcome the user at any time. However, the source is a plugin that depends on ProspaceCore. If you want to support development, you need to understand the overall source code for the plugin.
+
  # License
  Copyright (c) 2017 ProspaceCraft Team
 Permission is hereby granted, free of charge, to any person
