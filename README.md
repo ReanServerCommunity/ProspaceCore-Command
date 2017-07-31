@@ -101,6 +101,7 @@ public class ExampleCommand extends CommandFramework<ProspaceCoreCommand>
     }
 }
  ```
- You can modify it according to your desired attributes. See below for a description of the methods you need to it.
+ You can make it very simple and fast if you do the above and modify it according to your desired attributes. <br>
+ See the wiki for more information, commands, methods.
  # Reference Methods
 It will up-to-date.
