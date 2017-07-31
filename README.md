@@ -112,7 +112,7 @@ public class ExampleCommand extends CommandFramework<ProspaceCoreCommand>
  If you have a better source code or want to help with development, I welcome the user at any time. However, the source's a plugin that depends on ProspaceCore. If you want to support it, you need to understand the overall source code for the plugin.
 
  # License
- Copyright (c) 2017 ProspaceCraft Team
+ Copyright (c) 2017 ProspaceCraft Team<br>
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
 files (the "Software"), to deal in the Software without
@@ -121,10 +121,10 @@ copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the
 Software is furnished to do so, subject to the following
 conditions:
-
+<br>
 The above copyright notice and this permission notice shall be
 included in all copies or substantial portions of the Software.
-
+<br>
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
 OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
