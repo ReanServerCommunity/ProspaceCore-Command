@@ -1,5 +1,9 @@
 # ProspaceCore-Command
 This is the framework that takes care of the commands in ProspaceCore. It extends the functionality of the command class and helps the user to create commands easily. It was created by extracting from existing code into framework. It created this project for further modification and management of its features.
+
+# What is ProspaceCommand?
+This helps you to develop very quickly when developing with a command in a plugin. For example, when you create a Permission and then check each player and create a help page or create a child command, you write a lot of source code for these processes. So I make this plugin to improve the efficiency of the code and save time.
+
 # Advantages of ProspaceCommand
 Compared to BukkitCommand, it provides the following functions.
 * Automatically check the permission
