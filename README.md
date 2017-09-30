@@ -80,6 +80,7 @@ import java.util.List;
 
 public class ExampleCommand extends CommandFramework<ProspaceCoreCommand>
 {
+     // original style (old release)
     public ExampleCommand()
     {
         this.setMainCommand("command");
@@ -97,10 +98,31 @@ public class ExampleCommand extends CommandFramework<ProspaceCoreCommand>
         {
             sender.sendMessage("Hello server!!");
         }
-        if(sender instanceof Player)
+        else if(sender instanceof Player)
         {
-            sender.sendMessage("Hello!! " + ((Player) sender).getDisplayName());
+            if(player.hasPermission(this.getPermission())
+                sender.sendMessage("Hello!! " + ((Player) sender).getDisplayName());
+            else
+                sender.sendMessage("Need permission");
         }
+        return true;
+    }
+    
+    // Now
+    public ExampleCommand()
+    {
+        this.setMainCommand("command");
+        this.setPermission("examplecommand.example");
+        this.addAliasCommand("cmd", "com");
+        this.setDeniedMessage("Need permission");
+        //TODO ...
+    }
+    
+    @Override
+    public boolean perform(@NotNull CommandSender sender, @Nullable List<String> args)
+    {
+        if(sender instanceof ConsoleCommandSender) sender.sendMessage("Hello server!!");
+        else if(sender instanceof Player) sender.sendMessage("Hello!! " + ((Player) sender).getDisplayName());
         return true;
     }
 }
